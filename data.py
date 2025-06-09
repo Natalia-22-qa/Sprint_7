@@ -1,9 +1,10 @@
 import data_generation
 
-
-class Api:
+class Urls:
     # страница сервиса
     URL = 'https://qa-scooter.praktikum-services.ru'
+
+class Api:
     # API курьера
     LOGIN_COURIER_API = '/api/v1/courier/login' #POST
     CREATE_COURIER_API = '/api/v1/courier' #POST
